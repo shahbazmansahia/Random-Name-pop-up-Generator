@@ -43,9 +43,9 @@ public class nameListRand {
 		nameList.add("Saitong Zhao");
 		
 		String nameGenned = nameList.elementAt(randNum);
-		System.out.println ("Hello");
-		System.out.println ("Hello "+ nameList.size());
-		System.out.println ("Hello "+ nameGenned);
+		//System.out.println ("Hello");
+		//System.out.println ("Hello "+ nameList.size());
+		//System.out.println ("Hello "+ nameGenned);
 		JOptionPane.showMessageDialog (null, nameGenned.toUpperCase() + " HAS JOINED THE BATTLE!", "A new Challenger Appears!", 1);
 	}
 
