@@ -1,5 +1,7 @@
 import java.util.Random;
 import java.util.Vector;
+import javax.swing.*;
+
 public class nameListRand {
 
 	public static void main(String[] args) {
