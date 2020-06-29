@@ -3,7 +3,9 @@ import java.util.Vector;
 public class nameListRand {
 
 	public static void main(String[] args) {
+		Random rand = new Random(System.currentTimeMillis());
 		
+		int randNum = Math.abs(rand.nextInt() % 31);
 		
 		Vector nameList = new Vector();
 		nameList.add("Shahbaz Singh Mansahia");
@@ -39,7 +41,8 @@ public class nameListRand {
 		nameList.add("Saitong Zhao");
 		
 		System.out.println ("Hello");
-		//System.out.println ("Hello "+ nameList.elementAt(randNum));
+		System.out.println ("Hello "+ nameList.size());
+		System.out.println ("Hello "+ nameList.elementAt(randNum));
 	}
 
 }
