@@ -9,7 +9,7 @@ public class nameListRand {
 		
 		int randNum = Math.abs(rand.nextInt() % 31);
 		
-		Vector nameList = new Vector();
+		Vector  <String> nameList = new Vector <String> ();
 		nameList.add("Shahbaz Singh Mansahia");
 		nameList.add("Deep");
 		nameList.add("Ahmed Mujtaba");
@@ -42,9 +42,11 @@ public class nameListRand {
 		nameList.add("Yan Huang");
 		nameList.add("Saitong Zhao");
 		
+		String nameGenned = nameList.elementAt(randNum);
 		System.out.println ("Hello");
 		System.out.println ("Hello "+ nameList.size());
-		System.out.println ("Hello "+ nameList.elementAt(randNum));
+		System.out.println ("Hello "+ nameGenned);
+		JOptionPane.showMessageDialog (null, nameGenned.toUpperCase() + " HAS JOINED THE BATTLE!", "A new Challenger Appears!", 1);
 	}
 
 }
